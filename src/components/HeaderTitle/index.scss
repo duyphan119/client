@@ -1,0 +1,46 @@
+.d-header {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  box-shadow: 0 0 4px 4px rgb(0 0 0 / 8%);
+  padding: 0 32px;
+  span {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #545454;
+    font-weight: bold;
+  }
+
+  .account {
+    color: #fff;
+    position: relative;
+    &:hover {
+      .profile {
+        display: flex;
+      }
+    }
+    cursor: pointer;
+    h3 {
+      padding: 0;
+      margin: 0;
+    }
+    .profile {
+      z-index: 1;
+      position: absolute;
+      width: 170px;
+      background: #fff;
+      box-shadow: 0 0 4px 4px rgb(0 0 0 / 8%);
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      a {
+        padding: 6px 0;
+      }
+    }
+  }
+}

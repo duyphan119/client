@@ -1,0 +1,57 @@
+@import "./globalStyle.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+html *::-webkit-scrollbar {
+  width: 4px;
+}
+html *::-webkit-scrollbar-thumb {
+  background: #7a7a9d;
+  border-radius: 2px;
+}
+html *::-webkit-scrollbar-track {
+  background: #dde1ef;
+  border-radius: 2px;
+}
+.three-dot {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.three-dot-1 {
+  -webkit-line-clamp: 1;
+}
+.three-dot-2 {
+  -webkit-line-clamp: 2;
+}
+.three-dot-3 {
+  -webkit-line-clamp: 3;
+}
+.three-dot-4 {
+  -webkit-line-clamp: 4;
+}

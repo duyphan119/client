@@ -1,0 +1,56 @@
+.login {
+	.p-50 {
+		padding: 0 50px;
+		.container-auth {
+			width: 500px;
+			margin: 0 auto;
+			background: #f9f9f9;
+			padding: 60px 40px;
+			.title {
+				text-align: center;
+				font-size: 3rem;
+			}
+			.group-input {
+				.form-custom {
+					.ant-row {
+						flex-direction: column;
+						margin-block: 50px;
+						.btn-auth {
+							width: 100%;
+							height: 100%;
+							border: none;
+							outline: none;
+							text-transform: uppercase;
+							font-size: 2rem;
+							background: #13283f;
+							color: #fff;
+							margin-top: 24px;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							cursor: pointer;
+
+							span {
+								padding: 10px 0;
+							}
+
+							&:hover {
+								background: #254d7a;
+							}
+						}
+					}
+				}
+			}
+			.text-register {
+				margin-top: 70px;
+				a {
+					color: #78e723;
+					font-weight: 700;
+					&:hover {
+						color: #13283f;
+					}
+				}
+			}
+		}
+	}
+}

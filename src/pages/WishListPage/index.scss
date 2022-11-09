@@ -1,0 +1,15 @@
+.wish-list-page {
+  width: 100%;
+  .content {
+    padding: 0 0 0 40px;
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    .list-product {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}

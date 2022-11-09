@@ -1,0 +1,30 @@
+.wrap {
+  background: #001529;
+  min-height: 100vw;
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    li {
+      margin-top: 0;
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #1890ff;
+    height: 65px;
+    a {
+      color: #fff;
+    }
+    span {
+      color: #fff;
+      font-size: 2rem;
+    }
+    img {
+      margin-left: 10px;
+    }
+  }
+}

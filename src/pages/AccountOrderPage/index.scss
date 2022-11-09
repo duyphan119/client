@@ -1,0 +1,42 @@
+.my-order {
+  width: 100%;
+  .content {
+    h3 {
+      font-size: 3rem;
+    }
+    .order-list {
+      padding: 16px 32px 16px 0;
+      .table-order-items {
+        width: 100%;
+
+        thead,
+        tbody {
+          border: 1px solid #c8c7cc;
+          tr {
+            th {
+              background-color: #f6f6f6;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 21px;
+              padding: 12px 0;
+              color: #333f48;
+              text-align: left;
+            }
+            th,
+            td {
+              text-align: center;
+            }
+          }
+        }
+
+        tbody {
+          tr {
+            th {
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}

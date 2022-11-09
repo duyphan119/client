@@ -1,0 +1,15 @@
+.profile-sidebar__item {
+  padding: 12px 0;
+  cursor: pointer;
+  display: block;
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+.profile-sidebar__item:hover,
+.profile-sidebar__item.active {
+  color: "blue";
+  background-color: rgb(250, 250, 250);
+  border-right: 4px solid #40a9ff;
+}

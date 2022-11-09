@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 84px;
+  &-logo {
+    margin-top: 4px;
+    img {
+      height: 40px;
+    }
+  }
+
+  &-menu {
+    height: 100%;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      gap: 3rem;
+      li {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .menu-link {
+          color: #6c757b;
+          font-size: 15px;
+          font-weight: 700;
+          height: 100%;
+          display: block;
+          text-transform: uppercase;
+          text-decoration: none;
+          cursor: pointer;
+          position: relative;
+          display: flex;
+          align-items: center;
+          &:hover {
+            color: #333f48;
+            &:before {
+              content: "";
+              background: #da291c;
+              border-radius: 5px;
+              height: 3px;
+              width: 24px;
+              position: absolute;
+              left: 50%;
+              bottom: 30%;
+              transform: translate(-50%, 0);
+            }
+          }
+        }
+      }
+    }
+    &-active {
+      color: #333f48 !important;
+
+      &:before {
+        content: "";
+        background: #da291c;
+        border-radius: 5px;
+        height: 3px;
+        width: 24px;
+        position: absolute;
+        left: 50%;
+        bottom: 30%;
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+
+  &-search {
+    width: 280px;
+    .ant-input-affix-wrapper {
+      border-radius: 10px;
+      background-color: #f6f6f6;
+
+      input {
+        background-color: #f6f6f6;
+      }
+    }
+  }
+
+  &-group-icon {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    img {
+      width: 24px;
+      height: 24px;
+      display: block;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+::placeholder {
+  color: #6c757b !important;
+}

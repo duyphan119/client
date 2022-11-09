@@ -1,0 +1,11 @@
+.header_filter {
+	display: flex;
+	padding: 16px 100px;
+	background-color: #f1f1f1;
+	justify-content: center;
+	gap: 30px;
+	.select_option {
+		flex: 1;
+		
+	}
+}
